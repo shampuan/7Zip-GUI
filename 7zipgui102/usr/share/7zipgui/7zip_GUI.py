@@ -355,7 +355,7 @@ class SevenZipAddArchiveGUI(QWidget):
         
         # --- PENCERE SİMGESİNİ AYARLA (GÜNCELLENDİ) ---
         # İkon yolu şimdi belirtilen sistem klasörünü kullanıyor
-        icon_path = os.path.join("/usr/share/7zipgui", "7zlogo.png") 
+        icon_path = os.path.join("/opt/7zip-gui", "7zlogo.png") 
         self.setWindowIcon(QIcon(icon_path)) 
         # -----------------------------------------------
         
